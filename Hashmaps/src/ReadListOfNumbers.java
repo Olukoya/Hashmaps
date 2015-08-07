@@ -31,23 +31,6 @@ public class ReadListOfNumbers {
 		map.put(9, "You entered 9");
 		map.put(10, "You entered 10");
 		
-		//tutorial on file I/O: http://www.tutorialspoint.com/java/java_files_io.htm
-		// 
-		//create an array list of type string
-		//when you specify the type like you have below (in the <>'s)you are using Generics
-		//When you take an element out of a Collection, 
-		//you must cast it to the type of element that is stored in the collection. 
-		//Besides being inconvenient, this is unsafe. 
-		//The compiler does not check that your cast is the same as the collection's type, 
-		//so the cast can fail at run time.
-		//Generics provides a way for you to communicate the type 
-		//of a collection to the compiler, so that it can be checked. 
-		//Once the compiler knows the element type of the collection, 
-		//the compiler can check that you have used the collection 
-		//consistently and can insert the correct casts on values 
-		//being taken out of the collection.
-
-		
 		
 		//get a filename
 		System.out.println((System.getProperty("user.dir") + File.separatorChar +"mybooks.txt"));
@@ -126,9 +109,6 @@ public class ReadListOfNumbers {
 		System.out.println(" -- unsorted books --");
 		
 			System.out.println(map.toString());
-		
-		
-		// HashMap<Integer,String> map = new HashMap<Integer,String>();
 		
 
 	}
